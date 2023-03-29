@@ -7,7 +7,7 @@ const ImageContainer = ({ content }) => {
     return (
         <div class="image-container" style={{backgroundImage: `url(${imageUrl})`}}>
             <div>
-                <h1>{heading}</h1>
+                <h1 className="heading">{heading}</h1>
             </div>
         </div>
     )
