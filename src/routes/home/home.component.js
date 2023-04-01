@@ -2,6 +2,7 @@ import ImageContainer from "../../components/image-container/image-container.com
 import image from "../../assets/meeting.jpg"
 import FeatureCard from "../../components/feature-card/feature-card.component";
 import features from "../../features";
+import "./home.styles.scss"
 
 const backgroundContainer = {
     image1: {
