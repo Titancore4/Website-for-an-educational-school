@@ -25,6 +25,9 @@ const backgroundContainer = {
 const Home = () => {
 
     const { image1, image2, image3 } = backgroundContainer;
+    const [section1, section2, section3] = features
+
+    console.log(section1);
 
     return (
         <div>
@@ -36,10 +39,9 @@ const Home = () => {
                 <h1>Our <span>Offerings:</span></h1>
 
                 <div class="feature-row">
-                    <FeatureCard feature={features.ielts}/>
-                    <FeatureCard feature={features.french}/>
-                    <FeatureCard feature={features.dutch}/>
-                    <FeatureCard feature={features.visa}/>
+
+                    {section1.map((feature) => (<FeatureCard key={feature.id} feature={feature}/>))}
+                    
                 </div>
 
             </div>
@@ -51,10 +53,7 @@ const Home = () => {
         <section id="four">
             <div class="container feature-row">
 
-            <FeatureCard feature={features.writing}/>
-            <FeatureCard feature={features.speaking}/>
-            <FeatureCard feature={features.listening}/>
-            <FeatureCard feature={features.reading}/>
+            {section2.map((feature) => (<FeatureCard key={feature.id} feature={feature}/>))}
 
             <h1>We will make <span>SURE</span> that you give your best in <span><strong>EVERYTHING!</strong></span></h1>
                 
@@ -67,9 +66,7 @@ const Home = () => {
         <section id="six">
             <div class="container feature-row">
 
-            <FeatureCard feature={features.small}/>
-            <FeatureCard feature={features.test}/>
-            <FeatureCard feature={features.cheap}/>
+            {section3.map((feature) => (<FeatureCard key={feature.id} feature={feature}/>))}
 
             </div>
         </section>
