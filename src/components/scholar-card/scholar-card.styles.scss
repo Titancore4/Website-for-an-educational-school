@@ -1,27 +1,53 @@
+$cmargin: 15px;
+    
 .scholar-card {
-    height: 600px;
-    width: 500px;
-    text-align: center;
+    display: flex;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 0;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, #233142, #4F9DA6);
+    box-shadow: 0 0 30px #4F9DA6;
+    padding: 0 20px;
+    margin: 30px 50px;
+        
+    .score {
+        margin-top: 15px;
+        margin-left: 180px;
+        width: 50px;
+        font-size: 1.2rem;
+        color: #ffbe31;
+        border-radius: 20px;
+        background-color: #233142;
+    }
 
+    
     img {
-        width: 400px;
-        margin-top: 30px;
+        width: 200px;
+        margin-top: 0;
+        margin-bottom: 30px;
         border-radius: 50%;
-        clip-path: circle(40% at 200px 210px);
-        // border: 3px solid #4F9DA6;
+        border: 2px solid #d19106;
     }
 
-    h3 {
-        display: inline;
-        position: relative;
-        font-size: 2.4rem;
-        bottom: 80px;
-        text-align: left;
-    }
 
-    :nth-child(3) {
-        font-size: 3rem;
-        margin-left: 200px;
-        color: #4F9DA6;
+    .detail {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+        
+        h3 {
+            font-size: 1.2rem;
+            padding: 5px 0;
+            color: #fdad00;
+            width: 220px;
+            border-radius: 20px;
+            background-color: #233142;
+        }
     }
 }

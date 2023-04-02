@@ -1,14 +1,18 @@
 import "./scholar-card.styles.scss"
 
-const ScholarCard = ({ content }) => {
+const ScholarCard = ({ scholar }) => {
 
-    const { image, name, bands } = content;
+    const { image, name, score } = scholar;
 
     return (
-        <div className="scholar-card">
-            <img src={image} alt="score" />
-            <h3>{name}</h3>
-            <h3>{bands}</h3>
+        <div>
+            <div className="scholar-card">
+                <h3 className="score">{score}</h3>
+                <img src={image} alt="score" />
+                <div className="detail">
+                    <h3>{name}</h3>
+                </div>
+             </div>
         </div>
     )
 }
