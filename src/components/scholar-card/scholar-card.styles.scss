@@ -8,10 +8,16 @@ $cmargin: 15px;
     flex-direction: column;
     margin: 30px 0;
     border-radius: 30px;
-    background-image: linear-gradient(to right, #233142, #4F9DA6);
-    box-shadow: 0 0 30px #4F9DA6;
+    background-image: linear-gradient(to top left, #4F9DA6, #233142);
     padding: 0 20px;
     margin: 30px 50px;
+
+    &:hover {
+        box-shadow: 5px 5px 10px #4F9DA6;
+        scale: 1.05;
+        transition: box-shadow 0.4s ease-out;
+        transition: scale 0.4s ease;
+    }
         
     .score {
         margin-top: 15px;

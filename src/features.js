@@ -4,29 +4,29 @@ const features = [
             id: 1,
             className: null,
             h1: "IELTS",
-            h3: "English",
-            p: "Improve your English to get the score you always wanted."
+            h3: "Accepted Globally",
+            p: "Get good bands to be able to study anywhere you want and achieve your DREAMs."
         },
         {
             id: 2,
             className: null,
             h1: "PTE",
-            h3: "English",
-            p: "For the few out there, now you can learn Dutch too!"
+            h3: "Computer-Based",
+            p: "For those who want to pursue their education in Australia, UK, New Zealand, etc; now you can."
         },
         {
             id: 3,
             className: null,
-            h1: "English",
-            h3: "Dutch",
-            p: "For the few out there, now you can learn Dutch too!"
+            h1: "TOEFL",
+            h3: "Study in America",
+            p: "Who wouldn't want to study in one of the leading countries of the world? Here's your chance!"
         },
         {
             id: 4,
             className: null,
             h1: "TCF/TEF",
             h3: "French",
-            p: "Want to learn Freanch? Don't worry! We got you covered."
+            p: "Want to learn French and crack TCF/TEF? You are in luck!"
         },
         {
             id: 5,
@@ -40,7 +40,7 @@ const features = [
             className: null,
             h1: "Italiano",
             h3: "Italian",
-            p: "For the few out there, now you can learn Dutch too!"
+            p: "Yes, you read that right, you have the option to become fluent in Italian aswell."
         },
         {
             id: 7,
@@ -51,10 +51,10 @@ const features = [
         },
         {
             id: 8,
-            className: null,
-            h1: "License",
-            h3: "Italian Driving License",
-            p: "We also handle your Visa application so you can sit back and relax!"
+            className: "fa-solid fa-id-card plane",
+            h1: null,
+            h3: "Italian License",
+            p: "Need help to pass the Italian Driving License Test? We can help you."
         }
     ],
     [

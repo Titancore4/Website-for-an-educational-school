@@ -1,0 +1,36 @@
+.sample-paper {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height: 60px;
+    width: 60vw;
+    border-radius: 50px;
+    border: 1px solid black;
+    background-color: #FF5959;
+    color: white;
+
+    h3 {
+        margin: 0 30px;
+    }
+
+    a {
+        margin-right: 8px;
+        text-decoration: none;
+        background-color: #FACF5A;
+        color: #233142;
+        font-size: 1.2rem;
+        font-weight: 800;
+        padding: 8px 3vw;
+        border-radius: 40px;
+
+        &:hover {
+            background-color: #4F9DA6;
+            color: #FACF5A;
+        }
+
+        &:active {
+            scale: 0.95;
+            transition: scale 0.2 linear;
+        }
+    }
+}

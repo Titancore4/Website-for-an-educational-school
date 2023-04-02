@@ -1,26 +1,9 @@
 import ImageContainer from "../../components/image-container/image-container.component";
 import image from "../../assets/meeting.jpg"
 import FeatureCard from "../../components/feature-card/feature-card.component";
+import backgroundContainer from "../../background-images";
 import features from "../../features";
 import "./home.styles.scss"
-
-const backgroundContainer = {
-    image1: {
-        id: 1,
-        heading: "Get Your Desired Score",
-        imageUrl: image
-    },
-    image2: {
-        id: 2,
-        heading: "We Prepare You For Everything!",
-        imageUrl: "https://images.pexels.com/photos/6368835/pexels-photo-6368835.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-    },
-    image3: {
-        id: 3,
-        heading: "Why US?",
-        imageUrl: "https://images.pexels.com/photos/277593/pexels-photo-277593.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-    }
-}
 
 const Home = () => {
 
