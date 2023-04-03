@@ -1,0 +1,18 @@
+.hr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+
+    hr {
+      top: 100px;
+      left: 40%;
+      border-style: dotted;
+      border-width: 5px;
+      border-left: none;
+      border-bottom: none;
+      border-right: none;
+      border-top: 5px dotted #233142;
+      width: 20%;
+    }
+  }

@@ -1,6 +1,7 @@
 import ImageContainer from "../../components/image-container/image-container.component";
 import image from "../../assets/meeting.jpg"
 import FeatureCard from "../../components/feature-card/feature-card.component";
+import HorizontalRule from "../../components/horizontal-rule/horizontal-rule.component";
 import backgroundContainer from "../../background-images";
 import features from "../../features";
 import "./home.styles.scss"
@@ -28,8 +29,9 @@ const Home = () => {
                 </div>
 
             </div>
-            <hr/>
         </section>
+
+        <HorizontalRule />
 
         <ImageContainer content={image2} />
 
@@ -41,8 +43,9 @@ const Home = () => {
             <h1>We will make <span>SURE</span> that you give your best in <span><strong>EVERYTHING!</strong></span></h1>
                 
             </div>
-            <hr/>
         </section>
+
+        <HorizontalRule />
 
         <ImageContainer content={image3} />
 
@@ -53,6 +56,8 @@ const Home = () => {
 
             </div>
         </section>
+
+        <HorizontalRule />
 
     </div>
     )
