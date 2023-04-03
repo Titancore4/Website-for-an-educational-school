@@ -1,0 +1,45 @@
+$dblue: #233142;
+$blue: #4F9DA6;
+$yellow: #ffa600;
+$pink: #FF5959;
+
+.outline {
+    border: 3px solid $dblue;
+    padding: 2px;
+    border-radius: 33px;
+
+    .administrator-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-image: linear-gradient(to bottom right, #233142, #4F9DA6);
+        border-radius: 30px;
+        padding: 30px 30px 20px 30px;
+        color: white;
+
+        // Image
+        img {
+            width: 300px;
+            border-radius: 50%;
+            border: 10px solid #233142;
+        }
+
+        // Name
+        :nth-child(2) {
+            margin-top: 20px;
+            font-family: 'PT Serif', serif;
+            font-size: 1.4rem;
+        }
+
+        // Post Title
+        :nth-child(3) {
+            font-family: 'Open Sans', sans-serif;
+            margin-top: 5px;
+            border-radius: 60px;
+            padding: 0 15px;
+            background-color: #233142;
+            color: $yellow;
+        }
+    }
+}

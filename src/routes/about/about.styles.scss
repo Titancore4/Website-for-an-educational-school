@@ -1,0 +1,43 @@
+$dblue: #233142;
+$blue: #4F9DA6;
+$yellow: #ffa600;
+$pink: #FF5959;
+
+.about {
+    color: black;
+    margin-top: 100px;
+    margin-bottom: 130px;
+
+    .about-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        // border: 3px solid #233142;
+        padding: 3px;
+        background-color: #ffb732;
+        border-radius: 35px;
+        margin-left: 600px;
+        margin-right:600px ;
+        margin-bottom: 70px;
+
+        p {
+            margin: auto 30px;
+            text-decoration: underline;
+            color: white;
+            font-size: 1.5rem;
+        }
+
+        &:first-child {
+            p {
+                text-align: left;
+            }
+        }
+
+        &:last-child {
+            p {
+                text-align: right;
+            }
+        }
+    }
+}
