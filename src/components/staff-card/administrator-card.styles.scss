@@ -1,3 +1,5 @@
+@import "../../breakpoints.scss";
+
 $dblue: #233142;
 $blue: #4F9DA6;
 $yellow: #ffa600;
@@ -7,6 +9,11 @@ $pink: #FF5959;
     border: 3px solid $dblue;
     padding: 2px;
     border-radius: 33px;
+    width: 24rem;
+
+    @include xs {
+        width: 18rem;
+    }
 
     .administrator-card {
         display: flex;
@@ -20,9 +27,13 @@ $pink: #FF5959;
 
         // Image
         img {
-            width: 300px;
+            width: 20rem;
             border-radius: 50%;
             border: 10px solid #233142;
+
+            @include xs {
+                width: 13rem;
+            }
         }
 
         // Name
