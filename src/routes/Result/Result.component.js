@@ -1,7 +1,9 @@
 import "./result.styles.scss"
 import ImageContainer from "../../components/image-container/image-container.component.jsx"
 import ScholarCard from "../../components/scholar-card/scholar-card.component"
+import backgroundContainer from "../../background-images"
 import Scholars from "../../scholars"
+import HorizontalRule from "../../components/horizontal-rule/horizontal-rule.component"
 
 const image = {
     heading: "Meet Our Scholars",
@@ -11,13 +13,15 @@ const image = {
 const Result = () => {
     return (
         <div className="result">
-            <ImageContainer content={image}/>
+            <ImageContainer content={backgroundContainer.image4}/>
 
             <div className="box">
                 <div className="scholars">
                     {Scholars.map((scholar) => (<ScholarCard key={scholar.id} scholar={scholar}/>))}
                 </div>
             </div>
+
+            <HorizontalRule />
 
         </div>
     )

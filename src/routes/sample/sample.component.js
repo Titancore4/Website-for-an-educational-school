@@ -4,6 +4,7 @@ import ImageContainer from "../../components/image-container/image-container.com
 import backgroundContainer from "../../background-images"
 import SamplePapers from "../../sample-papers"
 import "./sample.styles.scss"
+import HorizontalRule from "../../components/horizontal-rule/horizontal-rule.component"
 
 const file = {
     name: "BIGO",
@@ -13,10 +14,13 @@ const file = {
 const Sample = () => {
     return (
         <div className="sample">
-        <ImageContainer  content={backgroundContainer.image4}/>
+        <ImageContainer  content={backgroundContainer.image5}/>
             <div className="sample-papers">
                 {SamplePapers.map((paper) => (<SamplePaper key={paper.id} file={paper} />))}
             </div>
+
+            <HorizontalRule />
+            
         </div>
     )
 }

@@ -3,6 +3,7 @@ import ImageContainer from "../../components/image-container/image-container.com
 import backgroundContainer from "../../background-images";
 import CEO from "../../assets/CEO-modified-transformed.png"
 import DIRECTOR from "../../assets/Director.png"
+import HorizontalRule from "../../components/horizontal-rule/horizontal-rule.component";
 import AdministratorCard from "../../components/staff-card/administrator-card.component";
 import Administrators from "../../Administrators";
 
@@ -19,17 +20,21 @@ const { one, two } = Administrators;
 
 const About = () => {
     return (
-        <div>
+        <div className="about-us">
             <ImageContainer content={backgroundContainer.image6} />
             <div className="about">
+
                 <div className="about-container">
                     <AdministratorCard administrator={one} />
                     <p>{content.C}</p>
                 </div>
+
                 <div className="about-container">
                     <p>{content.D}</p>
                     <AdministratorCard administrator={two} />
                 </div>
+
+                <HorizontalRule />
             </div>
         </div>
     )
