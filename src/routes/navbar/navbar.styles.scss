@@ -9,16 +9,32 @@ font-size: 2rem;
     margin-left: 30px;
 }
 
-nav li a {
-    text-decoration: none;
-    margin-right: 80px;
-    color: #233142;
-    padding: 3px 15px;
-    border-radius: 20px;
-    font-size: 1.05rem;
+nav {
+    .nav-link {
+        text-decoration: none;
+        margin-right: 80px;
+        color: #233142;
+        padding: 3px 10px !important;
+        border-radius: 20px;
+        font-size: 1.05rem;
+        
+        &:hover {
+            background-color: #4F9DA6;
+            color: white !important;
+        }
+    }
 }
 
-nav li a:hover {
-    background-color: #4F9DA6;
-    color: white !important;
-}
+// nav li a {
+//     text-decoration: none;
+//     margin-right: 80px;
+//     color: #233142;
+//     padding: 3px 15px;
+//     border-radius: 20px;
+//     font-size: 1.05rem;
+// }
+
+// nav li a:hover {
+//     background-color: #4F9DA6;
+//     color: white !important;
+// }
