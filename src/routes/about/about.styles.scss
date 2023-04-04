@@ -22,10 +22,14 @@ $pink: #FF5959;
             justify-content: center;
             align-items: center;
             flex-direction: row;
-            margin: auto 3rem;
+            margin: auto 13rem;
             margin-bottom: 8rem;
 
-            @include xs {
+            @include lg {
+                margin: 5rem 2rem 1rem;
+            }
+
+            @include md {
                 flex-direction: column;
                 margin: 5rem 2rem 1rem;
             }
@@ -35,7 +39,7 @@ $pink: #FF5959;
                 margin: 5rem 2rem 1rem;
             }
 
-            @include md {
+            @include xs {
                 flex-direction: column;
                 margin: 5rem 2rem 1rem;
             }
