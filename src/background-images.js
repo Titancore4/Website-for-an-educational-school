@@ -1,4 +1,6 @@
 import image from "./assets/meeting.jpg"
+import image2 from "./assets/backgrounds/blossom.jpg"
+
 
 const backgroundContainer = {
     image1: {
@@ -18,13 +20,18 @@ const backgroundContainer = {
     },
     image4: {
         id: 4,
-        heading: "Free Sample Papers",
-        imageUrl: "https://images.pexels.com/photos/4440715/pexels-photo-4440715.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        heading: "Meet Our Alumni",
+        imageUrl: "https://images.pexels.com/photos/1205651/pexels-photo-1205651.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     image5: {
         id: 5,
-        heading: "About us",
-        imageUrl: "https://images.pexels.com/photos/989941/pexels-photo-989941.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        heading: "Free Sample Papers",
+        imageUrl: "https://images.pexels.com/photos/4440715/pexels-photo-4440715.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    image6: {
+        id: 6,
+        heading: "Who Are We?",
+        imageUrl: image2
     }
 }
 
