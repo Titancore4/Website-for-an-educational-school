@@ -1,59 +1,65 @@
 $cmargin: 15px;
     
-.scholar-card {
-    display: flex;
-    width: 260px;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 30px 0;
-    border-radius: 30px;
-    background-image: linear-gradient(to top left, #4F9DA6, #233142);
-    padding: 0 20px;
+.card-outline {
+    padding: 2px;
     margin: 30px 50px;
+    border-radius: 30px;
+    border: 2px solid #233142;
+    background-color: #d4c093;
+
+    .scholar-card {
+        display: flex;
+        width: 260px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 27px;
+        background-image: linear-gradient(to top left, #4F9DA6, #233142);
+        padding: 0 20px;
+            
+        .score {
+            margin-top: 15px;
+            margin-left: 180px;
+            width: 50px;
+            font-size: 1.2rem;
+            color: #fdad00;
+            border-radius: 20px;
+            background-color: #233142;
+        }
+    
+        
+        img {
+            width: 200px;
+            margin-top: 0;
+            margin-bottom: 30px;
+            border-radius: 50%;
+            border: 2px solid #233142;
+        }
+    
+    
+        .detail {
+            flex-direction: column;
+            flex-wrap: nowrap;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+            
+            h3 {
+                font-size: 1.2rem;
+                padding: 5px 0;
+                color: #fdad00;
+                width: 220px;
+                border-radius: 20px;
+                background-color: #233142;
+            }
+        }
+    }
 
     &:hover {
         box-shadow: 5px 5px 10px #4F9DA6;
         scale: 1.05;
         transition: box-shadow 0.4s ease-out;
         transition: scale 0.4s ease;
-    }
-        
-    .score {
-        margin-top: 15px;
-        margin-left: 180px;
-        width: 50px;
-        font-size: 1.2rem;
-        color: #ffbe31;
-        border-radius: 20px;
-        background-color: #233142;
-    }
-
-    
-    img {
-        width: 200px;
-        margin-top: 0;
-        margin-bottom: 30px;
-        border-radius: 50%;
-        border: 2px solid #d19106;
-    }
-
-
-    .detail {
-        flex-direction: column;
-        flex-wrap: nowrap;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 10px;
-        
-        h3 {
-            font-size: 1.2rem;
-            padding: 5px 0;
-            color: #fdad00;
-            width: 220px;
-            border-radius: 20px;
-            background-color: #233142;
-        }
     }
 }

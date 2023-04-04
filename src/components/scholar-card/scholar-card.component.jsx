@@ -5,7 +5,7 @@ const ScholarCard = ({ scholar }) => {
     const { image, name, score } = scholar;
 
     return (
-        <div>
+        <div className="card-outline">
             <div className="scholar-card">
                 <h3 className="score">{score}</h3>
                 <img src={image} alt="score" />

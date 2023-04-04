@@ -5,8 +5,7 @@
     height: 60px;
     width: 60vw;
     border-radius: 50px;
-    border: 1px solid black;
-    background-color: #FF5959;
+    background-image: linear-gradient(to right, #FF5959, #4F9DA6);
     color: white;
 
     h3 {
@@ -16,16 +15,15 @@
     a {
         margin-right: 8px;
         text-decoration: none;
-        background-color: #FACF5A;
-        color: #233142;
+        background-color: #233142;
+        color: #ffbb00;
         font-size: 1.2rem;
-        font-weight: 800;
         padding: 8px 3vw;
         border-radius: 40px;
 
         &:hover {
-            background-color: #4F9DA6;
-            color: #FACF5A;
+            background-color: #ffcc41;
+            color: #233142;
         }
 
         &:active {
