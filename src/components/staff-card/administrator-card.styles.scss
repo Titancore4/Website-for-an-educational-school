@@ -29,10 +29,11 @@ $pink: #FF5959;
         img {
             width: 20rem;
             border-radius: 50%;
-            border: 10px solid #233142;
+            border: 0.625rem solid #233142;
 
             @include xs {
                 width: 13rem;
+                border: 0.3rem solid #233142;
             }
         }
 

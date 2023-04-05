@@ -1,8 +1,6 @@
 import "./about.styles.scss"
 import ImageContainer from "../../components/image-container/image-container.component";
 import backgroundContainer from "../../background-images";
-import CEO from "../../assets/CEO-modified-transformed.png"
-import DIRECTOR from "../../assets/Director.png"
 import HorizontalRule from "../../components/horizontal-rule/horizontal-rule.component";
 import AdministratorCard from "../../components/staff-card/administrator-card.component";
 import Administrators from "../../Administrators";

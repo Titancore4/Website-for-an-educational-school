@@ -71,7 +71,7 @@ footer {
   color: $yellow;
 
   span {
-    margin-top: 80px;
+    margin-top: 5rem;
     font-size: 1.2rem;
   }
   
@@ -79,14 +79,14 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 10px;
-    margin-bottom: 30px;
+    margin-top: 0.625rem;
+    margin-bottom: 1.875rem;
 
     a {
       display: inline-block;
       color: $yellow;
       font-size: 2rem;
-      margin: 0 30px;
+      margin: 0 1.875rem;
     }
   }
   
@@ -98,18 +98,18 @@ footer {
 
     :nth-child(1) {
       font-size: 1.05rem;
-      margin-bottom: 60px;
+      margin-bottom: 3.75rem;
     }
 
     :nth-child(2) {
       font-size: 1.1rem;
-      margin-bottom: 15px;
+      margin-bottom: 0.9375rem;
     }
   }
 
   > h4 {
     font-size: 0.8rem;
-    margin-top: 15px;
-    margin-bottom: 60px;
+    margin-top: 0.9375rem;
+    margin-bottom: 3.75rem;
   }
 }

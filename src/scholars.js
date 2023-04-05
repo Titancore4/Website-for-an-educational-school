@@ -1,11 +1,11 @@
-import image1 from "./assets/scholars/me (2)-modified.png"
-import image2 from "./assets/scholars/Rajdeep-kaur-7.0.png"
-import image3 from "./assets/scholars/Sukhman-Sood-modified-transformed.png"
-import image4 from "./assets/scholars/simranjit-kaur-6.5.png"
-import image5 from "./assets/scholars/Gaurav-Gangar-modified-transformed.png"
-import image6 from "./assets/scholars/Rajwinder-kaur-6.0.png"
-import image7 from "./assets/scholars/Manjinder-Singh-modified-transformed.png"
-import image8 from "./assets/scholars/Dilpreet-Singh_page-0001-modified (1) (1).png"
+import image1 from "./assets/optimized images/me-7.5.webp"
+import image2 from "./assets/optimized images/Rajdeep-kaur-7.0.webp"
+import image3 from "./assets/optimized images/Sukhman-Sood-7.0.webp"
+import image4 from "./assets/optimized images/simranjit-kaur-6.5.webp"
+import image5 from "./assets/optimized images/Gaurav-Gangar-6.5.webp"
+import image6 from "./assets/optimized images/Rajdeep-kaur-7.0.webp"
+import image7 from "./assets/optimized images/Manjinder-singh-6.0.webp"
+import image8 from "./assets/optimized images/Dilpreet-Singh-6.0.webp"
 
 const Scholars = [
     {

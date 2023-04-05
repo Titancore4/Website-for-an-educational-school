@@ -1,5 +1,5 @@
-import CEO from "./assets/CEO-modified-transformed.png"
-import Director from "./assets/Director.png"
+import CEO from "./assets/optimized images/CEO.webp"
+import Director from "./assets/optimized images/Director.webp"
 
 const Administrators = {
     one: {

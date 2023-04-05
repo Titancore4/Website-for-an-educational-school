@@ -1,5 +1,4 @@
 import ImageContainer from "../../components/image-container/image-container.component";
-import image from "../../assets/meeting.jpg"
 import FeatureCard from "../../components/feature-card/feature-card.component";
 import HorizontalRule from "../../components/horizontal-rule/horizontal-rule.component";
 import backgroundContainer from "../../background-images";

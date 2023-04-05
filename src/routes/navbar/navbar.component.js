@@ -1,7 +1,7 @@
 import { Outlet } from "react-router";
 import { Fragment } from "react";
 import "./navbar.styles.scss"
-import Logo from "../../assets/Best.jpg"
+import Logo from "../../assets/optimized images/Best .webp"
 
 const NavBar = () => {
     return (
